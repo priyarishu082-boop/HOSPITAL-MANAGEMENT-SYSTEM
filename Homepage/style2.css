@@ -63,18 +63,6 @@ h1 {
     color: rgb(157, 7, 27);
 }
 
-/* .section {
-    background: url(photos/patientcare.jpeg) center;
-    height: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(231, 15, 15);
-    text-align: center;
-    position: relative;
-    font-size: larger;
-} */
-
 .container {
     background: url("../assets/patientcare.png") center;
     height: 469px;
