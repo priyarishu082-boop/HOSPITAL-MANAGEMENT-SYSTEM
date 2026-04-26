@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #00B4D8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+}
+
+form{
+    background: #fff;
+    width: 80%;
+    max-width: 600px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #000;
+    font-size: larger;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+label{
+    font-weight: bold;
+    display: inline;
+    margin-top: 10px; 
+}
+
+input[type="text"],select{
+    width:100%;
+    padding:5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input[type="number"],select{
+    width:100%;
+    padding:5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input[type="submit"]{
+    width: 40%;
+    background-color: #03045E;
+    color:#fff;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+input[type="reset"]{
+    width: 40%;
+    background-color: rgb(144,0,0);
+    color:#fff;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+input[type="submit"]:hover{
+    background-color: blue;
+}
+
+input[type="reset"]:hover{
+    background-color: aqua;
+}
+
+.button{
+    display: flex;
+}
+
+a{
+    display:block;
+    text-align: center;
+    margin-top: 20px;
+    color:blue;
+
+}
+@media(max-width:480px){
+    form{
+        padding:15px;
+    }
+    h3{
+        font-size: 15px;
+    }
+}
