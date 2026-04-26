@@ -1,0 +1,273 @@
+.header {
+    background-color: #0077B6;
+    color: #fff;
+    /* padding: 25px 40px; */
+    padding: 50px 50px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+@media(max-width:700px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 35px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .logo {
+        width: 35px;
+        margin-bottom: 10px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #90E0EF;
+}
+
+h1 {
+    margin-left: 300px;
+    margin-bottom: 0px;
+}
+
+/* NAVBAR */
+.top-nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #03045E;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0;
+}
+
+.top-nav ul li {
+    margin-left: 20px;
+}
+
+.top-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.top-nav ul li a:hover {
+    text-decoration: underline;
+    color: rgb(157, 7, 27);
+}
+
+/* .section {
+    background: url(photos/patientcare.jpeg) center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(231, 15, 15);
+    text-align: center;
+    position: relative;
+    font-size: larger;
+} */
+
+.container {
+    background: url("../assets/patientcare.png") center;
+    height: 469px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: rgb(157, 7, 27);
+    text-align: center;
+    position: relative;
+    font-size: larger;
+}
+
+.sidebar {
+    background-color: #0077B6;
+    width: 300px;
+    /* border-radius: 1rem; */
+    color: #fff;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 12px;
+    margin: 0;
+}
+
+div h2 {
+    text-align: center;
+}
+
+div h3 {
+    text-align: center;
+    margin-left: 25px;
+    font-size: larger;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav {
+    background-color: #03045E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    padding: 0.5rem 0.75rem;
+    align-items: flex-start;
+}
+
+.nav-option {
+    line-height: 3rem;
+    padding: 0.5rem 0.5rem;
+    font-size: large;
+}
+
+.nav-option:hover {
+    color: rgb(157, 7, 27);
+
+}
+
+.nav-option a {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.nav-option a:hover {
+    text-decoration: underline;
+    color: rgb(157, 7, 27);
+}
+
+.nav-option i {
+    font-size: 1.25rem;
+}
+
+.card {
+    background-color: #0077B6;
+    width: 200px;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size:20px;
+}
+
+.card-info {
+    font-size: 20px;
+}
+
+.main-content {
+    background-color: #90E0EF;
+    font-size: larger;
+    color: #fff;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.card:hover {
+    box-shadow: 0 15px 20px #000;
+    transition: 1s;
+}
+
+.main-content h2 {
+    color: #03045E;
+    text-align: center;
+}
+
+/* FAQS */
+.faq-container {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.head{
+    font-size: 30px;
+    margin: 20px;
+    color: #03045E;
+    text-decoration: underline;
+}
+
+.question {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #0077B6;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.answer {
+    display: none;
+    background: #fff;
+    padding: 15px;
+    border-left: 10px solid #0a3d62;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 31px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #0a3d62;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+footer {
+    background-color: #0a3d62;
+    color: #fff;
+    padding: 40px 20px 20px;
+}
+
+.footer h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer i {
+    margin-right: 10px;
+    color: rgb(157, 7, 27);
+}
+
+@media(max-width: 700px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.hms {
+    text-align: center;
+}
