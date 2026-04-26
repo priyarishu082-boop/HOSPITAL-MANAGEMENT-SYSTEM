@@ -1,7 +1,7 @@
 # HOSPITAL-MANAGEMENT-SYSTEM
 A full-stack web application designed to streamline hospital operations such as patient management, appointment scheduling and the role based access for patient,doctors and admin.
 
-#Features
+#Features--
 
 User registration and Management
 Separate Patient,Doctor & Admin's dashboard.
@@ -10,18 +10,18 @@ CRUD Operations(Create,Read,Update,Delete)
 Secure Login & Authentication.
 Responsive User Interface.
 
-#Tech Stack
+#Tech Stack---
 
-**Frontend
+**Frontend --
 HTML
 CSS
 JAVASCRIPT
 
-**Backened
+**Backened--
 PHP
 
-**Database
+**Database--
 MySQL
 
-**Server
+**Server--
 XAMPP (Apache + MySQL)
